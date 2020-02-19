@@ -14,7 +14,7 @@ $headers[] = 'X-Location: -6.405821,106.064193';
         echo "\e[92m|                    GOODLUCK                    |\n";
         echo "\e[92m--------------------------------------------------\n";
         echo "\n";
-        ulang;
+        ulang:
         echo "\e[96m[+] Input Nomor HP : ";
         $number = trim(fgets(STDIN));
         $numbers = $number[0].$number[1];
