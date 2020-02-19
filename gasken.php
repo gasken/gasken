@@ -119,6 +119,18 @@ function request($url, $token = null, $data = null, $pin = null, $otpsetpin = nu
         return $body;
     }
 
+function getStr($a,$b,$c)
+    {
+        $a = @explode($a,$c)[1];
+        return @explode($b,$a)[0];
+    }
+
+function getStr1($a,$b,$c,$d)
+    {
+            $a = @explode($a,$c)[$d];
+            return @explode($b,$a)[0];
+    }
+
 function color($color = "default" , $text)
     {
         $arrayColor = array(
@@ -132,6 +144,17 @@ function color($color = "default" , $text)
             'white'     => '1;0',
         );  
         return "\033[".$arrayColor[$color]."m".$text."\033[0m";
+    }
+
+function fetch_value($str,$find_start,$find_end)
+    {
+        $start = @strpos($str,$find_start);
+        if ($start === false) {
+            return "";
+        }
+        $length = strlen($find_start);
+        $end    = strpos(substr($str,$start +$length),$find_end);
+        return trim(substr($str,$start +$length,$end));
     }
 
 function nama()
