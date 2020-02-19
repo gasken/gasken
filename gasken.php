@@ -49,9 +49,8 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 echo "SUKSES DAFTAR BOSS \n\n";
                 echo "Token ~> ".$token." \n";
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
-                echo "balik maneh neng *php gasken[dot]php*";
-                echo "paling penak tekan tombol [up]";
-                sleep();
+                echo "Balik maneh neng *php gasken[dot]php* ";
+                sleep(1);
                 echo "\n";
 
 }else
