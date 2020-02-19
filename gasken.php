@@ -48,7 +48,8 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 fclose($fopen1);
                 echo "Token ~> ".$token." \n";
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
-                sleep(5);
+                echo "balik maneh neng *php gasken[dot]php* paling penak tekan tombol [up]";
+                sleep(1);
                 echo "\n";
 
 }else
