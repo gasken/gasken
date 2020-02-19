@@ -46,11 +46,11 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 $fopen1 = fopen($live, "a+");
                 $fwrite1 = fwrite($fopen1, "TOKEN => ".$token." \n NOMOR => ".$number." \n");
                 fclose($fopen1);
-                echo "SUKSES DAFTAR BOSS";
+                echo "SUKSES DAFTAR BOSS \n\n";
                 echo "Token ~> ".$token." \n";
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
-                echo "balik maneh neng *php gasken[dot]php* paling penak tekan tombol [up]";
-                sleep(1);
+                echo "balik maneh neng *php gasken[dot]php* \n paling penak tekan tombol [up]";
+                sleep 0.01
                 echo "\n";
 
 }else
